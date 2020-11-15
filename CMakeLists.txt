@@ -65,6 +65,6 @@ target_link_libraries(${SL_LOG_PROJECT} sl-platform)
 endif()
 target_include_directories(${SL_LOG_PROJECT} PUBLIC ${PROJECT_SOURCE_DIR}/lib/sl-platform/src)
 
-add_subdirectory(${PROJECT_SOURCE_DIR}/lib/spdlog-1.x)
+add_subdirectory(${PROJECT_SOURCE_DIR}/lib/spdlog)
 target_link_libraries(${SL_LOG_PROJECT} spdlog)
-target_include_directories(${SL_LOG_PROJECT} PRIVATE ${PROJECT_SOURCE_DIR}/lib/spdlog-1.x/include)
+target_include_directories(${SL_LOG_PROJECT} PRIVATE ${PROJECT_SOURCE_DIR}/lib/spdlog/include)
