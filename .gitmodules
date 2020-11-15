@@ -1,0 +1,8 @@
+[submodule "lib/sl-platform"]
+	path = lib/sl-platform
+	url = https://github.com/SavaLione/sl-platform.git
+
+[submodule "lib/spdlog-1.x"]
+	path = lib/sl-platform
+	url = https://github.com/gabime/spdlog.git
+	

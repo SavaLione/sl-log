@@ -1,2 +1,1 @@
-# sl-log
-SavaLione log library
+# SavaLione log C++ library
